@@ -97,7 +97,7 @@ class Grid extends Component {
   }
 
   addMoreGifs = () => {
-    this.props.handleLoadingStarting
+    this.props.handleLoadingStarting()
     let updatedGifsArray = []
     let i = 0
     for (i = 0; i < this.state.noOfNewGifs; i++) {
